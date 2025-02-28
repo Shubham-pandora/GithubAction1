@@ -1,5 +1,5 @@
 
-name: deployDist
+name: nodejs
 on: [push,workflow_dispatch]
 # on:
 #   - push
@@ -23,6 +23,6 @@ jobs:
 
       - name: run test case
         run: npm run test
-         
+
        
        
